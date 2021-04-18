@@ -36,22 +36,20 @@ SubjectTable = document.getElementById("SubjectTable");
 function searchBySubject(){
   let input = document.getElementById("searchBySubject");
   let tr = searchresult.getElementsByTagName("tr");
-  let upperCaseText = input.value.toUpperCase();
+  let upperCaseInput = input.value.toUpperCase();
   let td, text;
   if (input.value.length > 0) searchresult.style.display = ''; // the results will be displayed
   else searchresult.style.display = 'none'; //nothing will get displayed.
   for (let i = 0; i < tr.length; i++) {
 	  let td = tr[i].getElementsByTagName("td")[0];
 	  if (td) {
-		  text = td.textContent || td.innerText;
-		  if (text.toUpperCase().indexOf(upperCaseText) > -1) {
+		  text = td.innerText.toUpperCase(); //this could be lowercase for filtering too
+		  if (text.includes(upperCaseInput)) {
 			tr[i].style.display = "";
 			} 
-		  else {
-       			 tr[i].style.display = "none";
-    		  }
-	    }       
-       }
+		  else{ tr[i].style.display = "none";}
+	  }
+  }
 }
 
 function searchByNeptun(){
@@ -64,8 +62,8 @@ function searchByNeptun(){
 	for (let i = 0; i < tr.length; i++) {
 	   td = tr[i].getElementsByTagName("td")[1];
 	  if (td) {
-		 text = td.textContent || td.innerText;
-		if (text.toUpperCase().indexOf(upperCaseText) > -1) {
+		 text = td.innerText.toUpperCase();
+		if (text.includes(upperCaseInput)) {
 		  tr[i].style.display = "";
 		} else {
 		  tr[i].style.display = "none";
