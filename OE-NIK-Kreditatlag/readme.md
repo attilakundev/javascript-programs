@@ -9,7 +9,7 @@ Ha azt akarod, hogy működjön, kell hozzá egy webszerver (apache vagy nginx s
 
 Célom, hogy a diákok sokkal könnyebben tudják kiszámítani az átlagukat. (persze saját tárgyat is tudsz hozzáadni, attól nem kell tartani :))
 
-Kipróbálhatod itt: https://codermapper.github.io/javascript-programs/OE-NIK-Kreditatlag/
+Kipróbálhatod itt: https://attilakundev.github.io/javascript-programs/OE-NIK-Kreditatlag/
 
 ## English version: ÓE-NIK weighted academic average calculator with stipend index
 The whole project is about to oompf the weighted academic average and scholarship/stipend index calculator on https://nikhok.hu/osztondij-kalkulator/  (and this: https://fuggoseg.sth.sze.hu/atlag.html). I will send this to the people from NIK HÖK to check out how it is going and give a feedback on it. 
