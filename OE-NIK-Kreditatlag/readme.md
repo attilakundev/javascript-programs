@@ -22,7 +22,7 @@ If you want it to work, you need a webserver like apache or nginx, because the w
 
 My goal is to reach it to the students and calculate the average more easily. (You can add your own subject, not just what it's in the curriculum, don't worry :))
 
-You can try out here: https://codermapper.github.io/javascript-programs/OE-NIK-Kreditatlag/
+You can try out here:  https://attilakundev.github.io/javascript-programs/OE-NIK-Kreditatlag/
 
 ## KÉPEK / IMAGES (dark theme)
 Jelenlegi verzió / Current version
